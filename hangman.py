@@ -113,12 +113,7 @@ def chooseword():
 chooseword()
 
 def chng():    
-    imagepaths=[0.png, 1.png,
-             "/Users/dell/Downloads/2.png",
-              "/Users/dell/Downloads/3.png",
-              "/Users/dell/Downloads/4.png",
-              "/Users/dell/Downloads/5.png",
-              ]
+    imagepaths=[0.png, 1.png, 3.png,    ]
     photo2 = ImageTk.PhotoImage(Image.open(imagepaths[n]))
     label.config(image = photo2) 
     label.update(photo2)
