@@ -114,7 +114,7 @@ chooseword()
 
 def chng():    
     imagepaths=[
-              "/Users/dell/Downloads/0.png",
+              0.png,
             "/Users/dell/Downloads/1.png",
              "/Users/dell/Downloads/2.png",
               "/Users/dell/Downloads/3.png",
