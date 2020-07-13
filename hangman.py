@@ -113,7 +113,7 @@ def chooseword():
 chooseword()
 
 def chng():    
-    imagepaths=[0.png, 1.png, 3.png,    ]
+    imagepaths=[0.png, 1.png, 2.png, 3.png, 4.png, 5.png]
     photo2 = ImageTk.PhotoImage(Image.open(imagepaths[n]))
     label.config(image = photo2) 
     label.update(photo2)
