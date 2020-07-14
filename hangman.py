@@ -4,7 +4,7 @@ def hangman():
     guess = inp.get()
     entry.delete(0,END)
     
-    if(n>1):      
+    if(n>=1):      
         if guess in picked:
             for i in range(len(picked)):
                 while picked[i]==guess :
@@ -30,7 +30,7 @@ def hangman():
             guesses.configure(text='No. of guesses = {}'.format(n))
             chng()
     
-    if n==1:
+    while n==1:
         guesses.configure(text='No. of guesses = 0')
         result.configure(text='You lose the game!!') 
         z.configure(text='I picked:  {}'.format(picked))
